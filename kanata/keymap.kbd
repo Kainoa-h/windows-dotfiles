@@ -1,8 +1,5 @@
 (defcfg
   process-unmapped-keys no
-  ;; Prevents Kanata from intercepting a specific keyboard or device
-  macos-dev-names-exclude (
-    "Over Mittens"
 )
 
 (deftemplate charmod (char mod)
