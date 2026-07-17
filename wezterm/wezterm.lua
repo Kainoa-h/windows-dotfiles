@@ -11,5 +11,9 @@ config.color_scheme = 'Afterglow'
 config.enable_tab_bar = false
 config.window_decorations = "RESIZE"
 
+config.keys = {
+  { key = 'n', mods = 'SHIFT|CTRL', action = wezterm.action.SpawnWindow },
+}
+
 -- Finally, return the configuration to wezterm:
 return config
